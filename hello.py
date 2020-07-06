@@ -26,3 +26,4 @@ def predictRating():
 	if not(user_id or movie_id):
 		return 'Please enter user ID and movie ID.<br><br>Example:<br><br> http://127.0.0.1:5000/predictRating?user_id=999&movie_id=777'
 	return 'The USER: %s will rate the MOVIE: %s with rating of: %s' % (user_id, movie_id, random.randint(1, 5))
+    # just  try
